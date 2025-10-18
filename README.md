@@ -42,9 +42,13 @@ Copy the code below:
 - Concepts: Object-Oriented Programming, File I/O, Modular Project Design
 - IDE/Tools: Visual Studio, Git, GitHub
 
+---
+
 ## Future Improvements
 - Explore using different STL containers or data structures for efficiency
 - Create a GUI version using wxWidgets or another C++ GUI library
+
+---
 
 ## Author
 - Vu Anh Thu Phan
