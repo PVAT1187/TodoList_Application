@@ -14,7 +14,8 @@ This project demonstrates object-oriented programming, file handling, and modula
 3. Build and run
 
 ### Command Line (if using g++)
-Copy the code below:
+1. Ensure you have g++ with C++17 support:
+2. Copy the code below:
   ```bash
   g++ -std=c++17 -o TodoList Main.cpp DataLoader.cpp Formatter.cpp Handler.cpp Interface.cpp Printer.cpp Todo.cpp TodoList.cpp
   ./TodoList
@@ -29,10 +30,10 @@ Copy the code below:
 ---
 
 ## Features
-- Add, view, delete, and edit tasks
-- Save and load tasks from a text file
-- Format and display tasks with clear output
+- Add, view, delete, and edit tasks directly from the console
+- Save and load tasks from a local text file
 - Modular structure with separate classes for handling data, input, and display
+- Format and display tasks with clear output
 
 ---
 
@@ -51,7 +52,8 @@ Copy the code below:
 ---
 
 ## Author
-- Vu Anh Thu Phan
-- Computer Science - Graduated December 2025
+**Vu Anh Thu Phan**
+
+Computer Science Graduated
 - [GitHub](https://github.com/PVAT1187) 
 
