@@ -52,6 +52,5 @@ This project demonstrates object-oriented programming, file handling, and modula
 ---
 
 ## Author
-**Vu Anh Thu Phan**
-[GitHub](https://github.com/PVAT1187) 
+**Vu Anh Thu Phan** - [GitHub](https://github.com/PVAT1187) 
 
