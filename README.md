@@ -5,6 +5,22 @@ This project demonstrates object-oriented programming, file handling, and modula
 
 ---
 
+## Design Overview
+This project was created to explore how a modular C++ application can manage user data efficiently while keeping logic and presentation separate. The goal was to create a flexible Todo List system that can be easily extended and maintained
+   - Task Management: Allows adding, editing, viewing, and deleting tasks via a console interface
+   - Persistence: Saves tasks to a local file and loads them on startup
+   - Modular Design: Separate classes handle data management, user input, formatting, and display, ensuring maintainable         and reusable code
+
+---
+
+## Design Goals
+- Provide an easy-to-use console interface for managing tasks
+- Practice object-oriented programming principles
+- Separate data logic from UI to support future expansion
+- Ensure clarity through formatted task display
+
+---
+
 ## How to Build and Run
 ### Windows (Visual Studio)
 1. Clone the repository:
