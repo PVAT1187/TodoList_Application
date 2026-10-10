@@ -35,10 +35,11 @@ A simple command-line application for managing tasks.
 
 ### Command Line (if using g++)
 1. Ensure you have g++ with C++17 support, then run:
-  ```bash
-  g++ -std=c++17 -o TodoList Main.cpp DataLoader.cpp Formatter.cpp Handler.cpp Interface.cpp Printer.cpp Todo.cpp TodoList.cpp
-  ./TodoList
-  ```
+   ```bash
+   g++ -std=c++17 -o TodoList Main.cpp DataLoader.cpp Formatter.cpp Handler.cpp Interface.cpp Printer.cpp Todo.cpp TodoList.cpp
+   ./TodoList
+   ```
+   
 ---
 
 ## Screenshots
