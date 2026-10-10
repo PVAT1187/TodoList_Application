@@ -9,7 +9,7 @@ This project demonstrates object-oriented programming, file handling, and modula
 This project was created to explore how a modular C++ application can manage user data efficiently while keeping logic and presentation separate. The goal was to create a flexible Todo List system that can be easily extended and maintained
    - Task Management: Allows adding, editing, viewing, and deleting tasks via a console interface
    - Persistence: Saves tasks to a local file and loads them on startup
-   - Modular Design: Separate classes handle data management, user input, formatting, and display, ensuring maintainable         and reusable code
+   - Modular Design: Separate classes handle data management, user input, formatting, and display, ensuring maintainable and reusable code
 
 ---
 
@@ -55,15 +55,8 @@ This project was created to explore how a modular C++ application can manage use
 
 ## Tech Stack
 - Programming Language: C++
-- Standard Template Library (STL)
-- Concepts: Object-Oriented Programming, File I/O, Modular Project Design
-- IDE/Tools: Visual Studio, Git, GitHub
-
----
-
-## Future Improvements
-- Explore using different STL containers or data structures for efficiency
-- Create a GUI version using wxWidgets or another C++ GUI library
+- IDE: Visual Studio
+- Concepts: Object-Oriented Programming, File I/O, Standard Template Library (STL)
 
 ---
 
