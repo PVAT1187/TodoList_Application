@@ -1,23 +1,27 @@
-# Todo List (C++ Console Application)
+# Todo List (C++ Console)
 
-A simple command-line Todo List application built in C++ using Visual Studio.  
-This project demonstrates object-oriented programming, file handling, and modular project design.
-
----
-
-## Design Overview
-This project was created to explore how a modular C++ application can manage user data efficiently while keeping logic and presentation separate. The goal was to create a flexible Todo List system that can be easily extended and maintained
-   - Task Management: Allows adding, editing, viewing, and deleting tasks via a console interface
-   - Persistence: Saves tasks to a local file and loads them on startup
-   - Modular Design: Separate classes handle data management, user input, formatting, and display, ensuring maintainable and reusable code
+A simple command-line application for managing tasks.
 
 ---
 
 ## Design Goals
 - Provide an easy-to-use console interface for managing tasks
-- Practice object-oriented programming principles
-- Separate data logic from UI to support future expansion
-- Ensure clarity through formatted task display
+- Practice object-oriented programming design
+- Practice building systems that separate application logic from user I/O
+
+---
+
+## Features
+- Add, view, delete, and edit tasks
+- Save and load tasks from a local text file
+- Format and display tasks
+- Modular class structure
+
+---
+
+## Tech Stack
+- Programming Language: C++
+- IDE: Visual Studio
 
 ---
 
@@ -30,36 +34,14 @@ This project was created to explore how a modular C++ application can manage use
 3. Build and run
 
 ### Command Line (if using g++)
-1. Ensure you have g++ with C++17 support:
-2. Copy the code below:
+1. Ensure you have g++ with C++17 support, then run:
   ```bash
   g++ -std=c++17 -o TodoList Main.cpp DataLoader.cpp Formatter.cpp Handler.cpp Interface.cpp Printer.cpp Todo.cpp TodoList.cpp
   ./TodoList
   ```
 ---
 
-## Usage
+## Screenshots
 <img width="418" height="724" alt="Screenshot 2025-10-10 112257" src="https://github.com/user-attachments/assets/316491f5-a473-42e9-8ecf-ca1f26b1993f" />
 <img width="328" height="190" alt="Screenshot 2025-10-10 112538" src="https://github.com/user-attachments/assets/553ffc63-318e-439a-8e63-153c5f6927ee" />
 <img width="420" height="517" alt="Screenshot 2025-10-10 112350" src="https://github.com/user-attachments/assets/0aa2b938-2f0c-4c34-817f-b29f19e1aa15" />
-
----
-
-## Features
-- Add, view, delete, and edit tasks directly from the console
-- Save and load tasks from a local text file
-- Modular structure with separate classes for handling data, input, and display
-- Format and display tasks with clear output
-
----
-
-## Tech Stack
-- Programming Language: C++
-- IDE: Visual Studio
-- Concepts: Object-Oriented Programming, File I/O, Standard Template Library (STL)
-
----
-
-## Author
-**Vu Anh Thu Phan** - [GitHub](https://github.com/PVAT1187) 
-
